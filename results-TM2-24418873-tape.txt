@@ -1,0 +1,121 @@
+1:qscan,x,_,qscan,x,_,R,S
+2:qscan,y,_,qscan,y,y,R,R
+3:qscan,z,_,qscan,z,z,R,R
+4:qscan,_,_,qaccept,_,_,S,S
+MACHINE: TM2-24418873
+TAPES: 2
+MAX STEPS: 500
+TAPE FILE: .\TM2-24418873-tape.txt
+________________________________________
+Tape 1:xyz
+Tape 2:_
+0,1,0,0,qscan,x,_,qscan,x,_,R,S
+1,2,1,0,qscan,y,_,qscan,y,y,R,R
+2,3,2,1,qscan,z,_,qscan,z,z,R,R
+3,4,3,2,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:xyz
+Tape 2:yz
+--------------------------------------------------
+Tape 1:x
+Tape 2:_
+0,1,0,0,qscan,x,_,qscan,x,_,R,S
+1,4,1,0,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:x
+Tape 2:
+--------------------------------------------------
+Tape 1:y
+Tape 2:_
+0,2,0,0,qscan,y,_,qscan,y,y,R,R
+1,4,1,1,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:y
+Tape 2:y
+--------------------------------------------------
+Tape 1:z
+Tape 2:_
+0,3,0,0,qscan,z,_,qscan,z,z,R,R
+1,4,1,1,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:z
+Tape 2:z
+--------------------------------------------------
+Tape 1:xxxy
+Tape 2:_
+0,1,0,0,qscan,x,_,qscan,x,_,R,S
+1,1,1,0,qscan,x,_,qscan,x,_,R,S
+2,1,2,0,qscan,x,_,qscan,x,_,R,S
+3,2,3,0,qscan,y,_,qscan,y,y,R,R
+4,4,4,1,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:xxxy
+Tape 2:y
+--------------------------------------------------
+Tape 1:yzzx
+Tape 2:_
+0,2,0,0,qscan,y,_,qscan,y,y,R,R
+1,3,1,1,qscan,z,_,qscan,z,z,R,R
+2,3,2,2,qscan,z,_,qscan,z,z,R,R
+3,1,3,3,qscan,x,_,qscan,x,_,R,S
+4,4,4,3,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:yzzx
+Tape 2:yzz
+--------------------------------------------------
+Tape 1:xyxz
+Tape 2:_
+0,1,0,0,qscan,x,_,qscan,x,_,R,S
+1,2,1,0,qscan,y,_,qscan,y,y,R,R
+2,1,2,1,qscan,x,_,qscan,x,_,R,S
+3,3,3,1,qscan,z,_,qscan,z,z,R,R
+4,4,4,2,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:xyxz
+Tape 2:yz
+--------------------------------------------------
+Tape 1:xzxzxz
+Tape 2:_
+0,1,0,0,qscan,x,_,qscan,x,_,R,S
+1,3,1,0,qscan,z,_,qscan,z,z,R,R
+2,1,2,1,qscan,x,_,qscan,x,_,R,S
+3,3,3,1,qscan,z,_,qscan,z,z,R,R
+4,1,4,2,qscan,x,_,qscan,x,_,R,S
+5,3,5,2,qscan,z,_,qscan,z,z,R,R
+6,4,6,3,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:xzxzxz
+Tape 2:zzz
+--------------------------------------------------
+Tape 1:zzz
+Tape 2:_
+0,3,0,0,qscan,z,_,qscan,z,z,R,R
+1,3,1,1,qscan,z,_,qscan,z,z,R,R
+2,3,2,2,qscan,z,_,qscan,z,z,R,R
+3,4,3,3,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:zzz
+Tape 2:zzz
+--------------------------------------------------
+Tape 1:xxx
+Tape 2:_
+0,1,0,0,qscan,x,_,qscan,x,_,R,S
+1,1,1,0,qscan,x,_,qscan,x,_,R,S
+2,1,2,0,qscan,x,_,qscan,x,_,R,S
+3,4,3,0,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:xxx
+Tape 2:
+--------------------------------------------------
+Tape 1:yzyzx
+Tape 2:_
+0,2,0,0,qscan,y,_,qscan,y,y,R,R
+1,3,1,1,qscan,z,_,qscan,z,z,R,R
+2,2,2,2,qscan,y,_,qscan,y,y,R,R
+3,3,3,3,qscan,z,_,qscan,z,z,R,R
+4,1,4,4,qscan,x,_,qscan,x,_,R,S
+5,4,5,4,qscan,_,_,qaccept,_,_,S,S
+ACCEPTED
+Tape 1:yzyzx
+Tape 2:yzyz
+--------------------------------------------------

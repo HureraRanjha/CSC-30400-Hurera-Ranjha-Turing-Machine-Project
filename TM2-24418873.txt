@@ -1,0 +1,11 @@
+TM2-24418873,2,200,500
+x,y,z,_
+qscan,qaccept,qreject
+qscan
+qaccept,qreject
+x,y,z,_
+x,y,z,_
+qscan,x,_,qscan,x,_,R,S
+qscan,y,_,qscan,y,y,R,R
+qscan,z,_,qscan,z,z,R,R
+qscan,_,_,qaccept,_,_,S,S

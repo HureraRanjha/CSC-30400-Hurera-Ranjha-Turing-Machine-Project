@@ -1,0 +1,15 @@
+TM1-decider-24418873,1,200,500
+0,1,_
+qstart,q0,q1,qaccept,qreject
+qstart
+qaccept,qreject
+0,1,_
+qstart,0,q0,0,R
+qstart,1,q1,1,R
+qstart,_,qaccept,_,R
+q0,1,q1,1,R
+q0,0,qreject,0,R
+q0,_,qaccept,_,R
+q1,0,q0,0,R
+q1,1,qreject,1,R
+q1,_,qaccept,_,R
